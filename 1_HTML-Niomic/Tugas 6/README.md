@@ -1,0 +1,3 @@
+# Buatlah tampilan halaman dengan menggunakan komponen List yang mana jika hasilnya dijalankan dengan web server chrome akan tampil seperti gambar dibawah ini :
+
+<img width="960" alt="Screenshot_1" src="https://lh5.googleusercontent.com/AJCWiFUVAbbRA5VfzOTztMoW1fHLxh9clZkKN95J-ekU_ynTpCAERxcGwpAUO9l4xWZHugYypL0pPzof1xvkTiA34KVMMz7J5xukF7lZeZpz8wHc3sjhvPlW_OEEGWbK_bWggEZFvpEf_F725VD4RYOfrUwNhnnKUYTlGzhlkWtK1HHApdKJjg"></img>

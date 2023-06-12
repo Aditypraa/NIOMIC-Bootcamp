@@ -1,0 +1,28 @@
+body {
+  background: #dadada;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-self: center;
+}
+
+.form {
+  align-self: center;
+  width: 800px;
+  padding: 20px;
+  background: white;
+}
+
+h3 {
+  display: inline-block;
+  position: relative;
+  top: -11px;
+  color: #0eb5af;
+}
+
+img {
+  width: 40px;
+}
