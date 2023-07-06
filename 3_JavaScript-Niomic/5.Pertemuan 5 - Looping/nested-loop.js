@@ -1,11 +1,12 @@
-function nestedLoop() {
-  for (let i = 0; i < 5; i++) {
-    console.log("i ke ", i);
-    for (let x = 0; x < 2; x++) {
-      console.log("x ke ", x);
-    }
-  }
-  console.log(" ");
-}
+let username = prompt("Username:");
+let paswword = prompt("Paswword:");
 
-nestedLoop();
+if (username == "admin") {
+  if (paswword == "12345") {
+    document.writeln("Selamat anda Berhasil Login");
+  } else {
+    document.writeln("Password yang anda masukan salah");
+  }
+} else {
+  document.writeln("Akun Anda Belum Terdaftar");
+}
