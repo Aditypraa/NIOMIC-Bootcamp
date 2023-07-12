@@ -1,12 +1,7 @@
-let username = prompt("Username:");
-let paswword = prompt("Paswword:");
-
-if (username == "admin") {
-  if (paswword == "12345") {
-    document.writeln("Selamat anda Berhasil Login");
-  } else {
-    document.writeln("Password yang anda masukan salah");
+for (let i = 0; i < 2; i++) {
+  console.log(`i ke ${i}`);
+  for (let j = 0; j < 2; j++) {
+    console.log(`j ke ${j}`);
   }
-} else {
-  document.writeln("Akun Anda Belum Terdaftar");
+  console.log("");
 }

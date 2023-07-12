@@ -1,16 +1,12 @@
-let x = 30;
-let y = 20;
+let username = prompt("Username:");
+let paswword = prompt("Paswword:");
 
-if (x > y) {
-  if (x > y) {
-    console.log("X adalah Yang paling Besar");
+if (username == "admin") {
+  if (paswword == "12345") {
+    document.writeln("Selamat anda Berhasil Login");
   } else {
-    console.log("Nilai X adalah yang paling besar kedua");
+    document.writeln("Password yang anda masukan salah");
   }
 } else {
-  if (x > y) {
-    console.log("X adalah yang paling kecil");
-  } else {
-    console.log("Nilai X adalah yang terkecil kedua");
-  }
+  document.writeln("Akun Anda Belum Terdaftar");
 }
