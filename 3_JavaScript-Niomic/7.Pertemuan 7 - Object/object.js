@@ -23,6 +23,9 @@ function callObject() {
 
   // Mengakses Method
   console.log(laptop.buttonStart());
+
+  // pengecekan Tipe Data
+  console.log(typeof laptop);
 }
 
 callObject();
