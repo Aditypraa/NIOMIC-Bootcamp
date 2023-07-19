@@ -13,17 +13,8 @@ console.log(string);
 // Tipe Data Boolean
 var benar = true;
 var salah = false;
-console.log(benar);
-console.log(salah);
 
-var tinggi = false;
-var cm = 145;
-
-if (cm < 176) {
-  tinggi = true;
-} else {
-  tinggi = false;
-}
+let cekHasil = salah == true ? true : false;
 
 // Tipe Data Null dan Undifined
 var tipeNull = null; // sudah diketahui tapi nilainya memang kosong
