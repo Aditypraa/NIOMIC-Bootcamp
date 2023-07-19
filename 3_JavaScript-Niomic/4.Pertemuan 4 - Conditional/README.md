@@ -12,3 +12,8 @@
 ## ELSE IF
 - Kadang dalam If, kita butuh membuat beberapa kondisi
 - Kasus seperti ini, di JavaScript kita bisa menggunakan Else If expression
+
+## SWITCH
+- Kadang kita hanya butuh menggunakan kondisi sederhana di if statement, seperti hanya menggunakan perbandingan ==
+- Switch adalah statement percabangan yang sama dengan if, namun lebih sederhana cara pembuatannya
+- Kondisi di switch statement hanya untuk perbandingan ==
