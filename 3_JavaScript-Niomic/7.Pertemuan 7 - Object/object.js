@@ -29,3 +29,18 @@ function callObject() {
 }
 
 callObject();
+
+function people() {
+  let dataDiri = {
+    nama: "yanto",
+    umur: 21,
+    kelas: "10 smp",
+    sekolah: "SMP Amerika 25",
+  };
+  // Mengeluarkan semua key dan value dari object
+  for (key in dataDiri) {
+    console.log(`${key} : ${dataDiri[key]}`);
+  }
+}
+
+people();
