@@ -1,3 +1,4 @@
+// Construktor
 function Person(nama, umur) {
   this.nama = nama;
   this.umur = umur;
