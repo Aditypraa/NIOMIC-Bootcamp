@@ -1,1 +1,0 @@
-<img width="960" alt="Screenshot_1" src="https://lh4.googleusercontent.com/6xaIi3PO64oJejW2PG-lWC0ze2j6oNgkUeH98FxMiCEUf5UKMqvpsw6NrYPY0rCi6NiPzIwyaKIR_DdACoYNPQkwhcRMolnPv6pDfFpAIQDpwxgsMwJiWlLpinSjkKbo07G7ha7tTlUU3BobU3l_z1ejBk3LnWoq0warQJRUVVUMVPOQveYCcA"></img>

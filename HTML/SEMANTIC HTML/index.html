@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!--- navigation --->
+        <nav>
+            <!--- logo --->
+            <h1 class="logo">My Profil</h1>
+            <!--- menu --->
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="assets/image/logo.png" alt="Profile" class="user-pic" onclick="toggleMenu()">
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="assets/image/logo.png" width="50%" height="50%" alt="logo">
+                        <h2>Aditya Pratama</h2>
+                        <hr>
+                        <a href="#" class="sub-menu-link">
+                            <p>Edit Profile</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <p>Setting & Privacy</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <p>Help & Support</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <p>Logout</p>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!--- text --->
+        <div class="text-container">
+            <p>PIYE KABARE,</p>
+            <p>I&#8217;ADITYA PRATAMA</p>
+            <p>Saya Kepingin Menjadi FullStack Web Developer</p>
+            <p>Seorang mahasiswa yang ingin mempunyai
+                <br>Teman Belajar</p>
+            <button class="hire-btn">Hire me</button>
+            <button class="down-cv">Download CV</button>
+        </div>
+
+        <figure>
+            <img alt="model" class="model" src="assets/image/tes.jpg">
+        </figure>
+
+        <aside class="noted">
+            <p>Website Ini Pertama Kalih Dibuat Pada Tanggal 9 Agustus 2023</p>
+        </aside>
+
+
+        <!-- services -->
+        <article class="services">
+            <!--text-->
+            <section class="services-text ">
+                <p>Services</p>
+                <p>Kami menyediakan beragam layanan berkualitas tinggi yang dirancang untuk memenuhi kebutuhan Anda
+                    dengan sempurna. Dari konsultasi profesional hingga solusi kreatif dan inovatif, tim kami siap
+                    membantu Anda mencapai tujuan Anda dengan cara yang efektif dan efisien.
+
+                    Dengan pendekatan yang berorientasi pada pelanggan, kami berkomitmen untuk memberikan layanan yang
+                    mengutamakan kepuasan Anda. Tim kami terdiri dari para ahli yang berpengalaman di bidangnya
+                    masing-masing, yang siap memberikan dukungan dan solusi yang tepat sesuai dengan kebutuhan dan
+                    tujuan Anda.
+
+                    Kami menyadari bahwa setiap klien memiliki kebutuhan yang unik, oleh karena itu, kami menawarkan
+                    layanan yang dapat disesuaikan sesuai dengan preferensi dan persyaratan khusus Anda. Dari desain dan
+                    pengembangan web, pemasaran digital, konsultasi bisnis, hingga layanan keuangan, kami dapat membantu
+                    Anda mencapai kesuksesan dan pertumbuhan yang Anda harapkan.
+
+                    Keunggulan layanan kami adalah kualitas yang tak tertandingi, ketepatan waktu, dan dedikasi kami
+                    untuk memberikan hasil terbaik bagi klien kami. Kami mengutamakan komunikasi yang jelas dan terbuka
+                    dengan klien kami untuk memastikan bahwa setiap langkah dan proses yang kami lakukan sesuai dengan
+                    harapan dan kebutuhan Anda.
+
+                    Kami bangga dapat menjadi mitra yang dapat diandalkan dalam melayani Anda. Percayakan kebutuhan Anda
+                    kepada kami dan nikmati pengalaman layanan yang profesional, efisien, dan memberikan hasil yang
+                    memuaskan.</p>
+            </section>
+
+            <section class="box-container">
+                <!--- 1 --->
+                <div class="box-1">
+                    <span>1</span>
+                    <p class="heading">Keahlian 1</p>
+                    <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="box-2">
+                    <span>2</span>
+                    <p class="heading">Keahlian 2</p>
+                    <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="box-3">
+                    <span>3</span>
+                    <p class="heading">Keahlian 3</p>
+                    <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <button>Read More</button>
+                </div>
+            </section>
+        </article>
+
+        <!--testimonials-->
+        <article class="testimoni">
+            <!--text-->
+            <div class="testimoni-text ">
+                <p>Testimoni Dari Client</p>
+            </div>
+
+            <aside class="testimoni-col">
+                <div class="testimoni-1">
+                    <img src="assets/image/alan.jpg">
+                    <div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since the 1500s.</p>
+                        <h3>Client Pertama</h3>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimoni-2">
+                    <img src="assets/image/mark.jpg">
+                    <div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since the 1500s.</p>
+                        <h3>Client Kedua</h3>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </aside>
+
+            <!--social-attach-bar-->
+            <aside class="social">
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </aside>
+
+        </article>
+
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>Apakah Anda Tertarik Menggunakan Layanan Saya?</p>
+
+        <!--paragraph-->
+        <p>Saya Akan Menggarap semua permintaan anda dengan sepenuh hati jiwa dan raga saya. saya akan mematuhi semua
+            permintaan anda jika anda ada uang banyak bos</p>
+
+        <!--social-->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <!--copyright-->
+        <p class="copyright">Copyright by Aditya Pratama</p>
+    </footer>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu() {
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+
+</html>

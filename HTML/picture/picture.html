@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+</head>
+
+<body>
+    <h1>Picture</h1>
+    <p>Keuntungan menggunakan picture daripada img adalah bisa menampung banyak gambar</p>
+
+    <picture>
+        <!-- Gambar Bisa berubah ketika kondisi ukuran terpenuhi -->
+        <source media="(max-width: 1500px)" srcset="1.png">
+        <source media="(max-width: 2400px)" srcset="2.png">
+        <source media="(max-width: 3100px)" srcset="3.png">
+        <source media="(max-width: 4200px)" srcset="logo.png">
+
+        <!-- img adalah Defaultnya -->
+        <img src="Sampul.png" alt="sampul" style="width: 100px; height: 100px;">
+    </picture>
+</body>
+
+</html>
