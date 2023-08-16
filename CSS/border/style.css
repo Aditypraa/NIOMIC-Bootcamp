@@ -1,0 +1,25 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.border-1 {
+    border: 2px solid brown;
+    border-bottom-width: 4px;
+}
+
+.atas-solid {
+    border: 10px;
+    border-top-style: solid;
+}
+
+.kiri-solid {
+    border-color: blue;
+    border-left-width: 4px;
+    border-left-style: solid;
+}
+
+.bawah-dotted {
+    border-color: rgb(11, 185, 119);
+    border-bottom-width: 4px;
+    border-bottom-style: dotted;
+}

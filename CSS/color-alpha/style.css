@@ -1,0 +1,30 @@
+body {
+    background-color: aliceblue;
+    color: #efefef;
+}
+
+.artikel {
+    border: solid 1px black;
+    background-color: grey;
+    padding: 10px;
+}
+
+h1 {
+    background-color: rgb(226, 226, 52);
+    padding: 10px;
+}
+
+h2 {
+    background-color: rgba(226, 226, 52, 0.5);
+    padding: 10px;
+}
+
+p.paragraf1 {
+    padding: 10px;
+    background-color: hsl(150, 50%, 50%);
+}
+
+p.paragraf2 {
+    padding: 10px;
+    background-color: hsla(150, 50%, 50%, 0.5);
+}
