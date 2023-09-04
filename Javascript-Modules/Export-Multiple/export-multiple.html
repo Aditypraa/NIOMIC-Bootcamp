@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Export</title>
+</head>
+
+<body>
+
+    <script type="module">
+        import{nama,sum,Person} from "./export-multiple.js"
+
+        // Variabel
+        console.info(nama)
+
+        // Function
+        console.info(sum(10,10))
+
+        // Class
+        let aditya = new Person("Aditya", "Pratama")
+         console.info(aditya.sayHello("Budianto Jr"))
+    </script>
+</body>
+
+</html>

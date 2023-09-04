@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Object</title>
+</head>
+
+<body>
+
+    <script type="module">
+        import * as aditya from "./module-object.js"
+console.log(aditya.firstName)
+console.log(aditya.middleName)
+console.log(aditya.lastName)
+
+console.log(aditya.hello())
+
+let result = new aditya.Person("Aditya")
+console.log(result.sayHello())
+
+    </script>
+
+</body>
+
+</html>
