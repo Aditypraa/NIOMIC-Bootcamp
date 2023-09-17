@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Interval</title>
+</head>
+
+<body>
+
+    <h1 id="header"></h1>
+
+    <script>
+        // Pembuatan Method/function
+        // const setTime = () => {
+        //     const header = document.getElementById("header");
+        //     header.textContent = new Date().toString()
+
+        //     document.body.appendChild(header);
+        // }
+
+        function setTime() {
+            let header = document.getElementById("header");
+            header.textContent = new Date().toString()
+
+            document.body.appendChild(header);
+        }
+
+        // setInterval adalah Proses Async kemudian callback function dimasukan ke parameter
+        // 1000 adalah timeInMilis atau waktunya
+        setInterval(setTime, 1000)
+        console.info("Program Selesai")
+    </script>
+</body>
+
+</html>

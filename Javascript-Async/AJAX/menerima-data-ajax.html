@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menerima Data Ajax</title>
+</head>
+
+<body>
+
+    <div id="response"></div>
+
+    <script>
+        let ajax = new XMLHttpRequest();
+        ajax.open("GET", "api/hello.json");
+        ajax.addEventListener("load", function () {
+            let json = JSON.parse(ajax.responseText);
+
+            let header = document.getElementById("response");
+            header.textContent = json.response;
+        });
+        ajax.send()
+    </script>
+</body>
+
+</html>
