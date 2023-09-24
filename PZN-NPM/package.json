@@ -1,0 +1,16 @@
+{
+  "name": "pzn-npm",
+  "version": "1.0.0",
+  "description": "Belajar NPM Bersama PZN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PZN",
+    "NPM"
+  ],
+  "author": "Aditya Pratama",
+  "license": "ISC",
+  "type": "module"
+}
