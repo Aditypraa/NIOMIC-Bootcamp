@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Dom Title</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        document.title = "Aditya Pratama"
+
+        const body = document.body
+        const h1 = document.createElement('h1') //<h1></h1>
+        const p1 = document.createElement('p')
+        const p2 = document.createElement('p')
+
+        body.append("Hello World!")
+
+        h1.innerText = "<marquee> H1 : Inner text </marquee>"
+        p1.textContent = "<marquee> p1 : Ini Text Content </marquee>"
+        p2.innerHTML = '<marquee> p2 : Ini adalah innerHtml </marquee>'
+        body.append(h1)
+        body.append(p1)
+        body.append(p2)
+    </script>
+</body>
+
+</html>
