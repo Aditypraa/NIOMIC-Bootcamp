@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Sibling Selector</title>
+    <style>
+        /* General sibling selector adalah memlilih element setelahnya atau sebelahnya element yang dipilih semuanya */
+        div~p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores assumenda nam perferendis magni voluptatem
+            error eligendi, nihil numquam pariatur at, praesentium non laborum et, iure sapiente debitis ipsum eius.
+            Libero?</p>
+        <article>
+            <h1>General sibling Selector</h1>
+            <p>ini tidak dipilih karena bukan anak langsung dari div</p>
+        </article>
+    </div>
+    <p>Maka ini yang akan dipilih karena setelah atau sejajar dengan div</p>
+    <p>saudara dua ini dipilih karena ini general sibling</p>
+
+</body>
+
+</html>

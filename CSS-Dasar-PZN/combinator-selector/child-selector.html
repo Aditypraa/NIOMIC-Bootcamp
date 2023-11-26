@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector</title>
+    <style>
+        /* Child selector langsung memilih anak dari parentnnya */
+        div>p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>ini adalah anak langsung dari div sehingga child selector bisa dipilih</p>
+        <article>
+            <h1>Descendent Selector</h1>
+            <p>ini tidak dipilih karena bukan anak langsung dari div</p>
+        </article>
+    </div>
+    <p>ini tidak dipilih karenan bukan turunan dari div</p>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adjacent sibling Selector</title>
+    <style>
+        /* adjacent dibling selector adalah memlilih element setelahnya atau sebelahnya element yang dipilih tetapi hanya satu */
+        div+p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>ini adalah anak langsung dari div sehingga child selector bisa dipilih</p>
+        <article>
+            <h1>adjacent sibling Selector</h1>
+            <p>ini tidak dipilih karena bukan anak langsung dari div</p>
+        </article>
+    </div>
+    <p>Maka ini yang akan dipilih karena setelah atau sejajar dengan div</p>
+    <p>saudara dua ini tidak dipilih</p>
+
+</body>
+
+</html>
