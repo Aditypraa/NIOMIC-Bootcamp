@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tebak Angka</title>
+  </head>
+  <body>
+    <h1>Tebak Angka</h1>
+
+    <script>
+      let maximun = parseInt(prompt("Masukan Nilai Maksimal!"));
+      while (!maximun) {
+        maximun = parseInt(prompt("Masukan Nilai Maksimal!"));
+      }
+
+      const targetNum = Math.floor(Math.random() * maximun) + 1;
+      console.log(targetNum);
+
+      let guess = parseInt(prompt("Isi Tebakan Pertama Kamu!"));
+      let attempt = 1;
+
+      while (parseInt(guess) !== targetNum) {
+        attempt++;
+        if (guess > targetNum) {
+          guess = parseInt(prompt("Terlalu Tinggi! Tebak Lagi"));
+        } else {
+          guess = parseInt(prompt("Terlalu RendaH! Tebak Lagi!"));
+        }
+      }
+
+      alert(`Tebakan Anda Benar!. Dengan Percobaan ${attempt} Kali`);
+    </script>
+  </body>
+</html>
