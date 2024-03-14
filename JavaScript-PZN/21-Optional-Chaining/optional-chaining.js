@@ -14,7 +14,7 @@ let person = {
     country: "Indonesia",
   },
 };
-let country;
+
 if (person.address != undefined && person.address != null) {
   console.log((country = person.address.country));
 }

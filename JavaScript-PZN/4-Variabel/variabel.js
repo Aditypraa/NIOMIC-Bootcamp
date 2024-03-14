@@ -1,4 +1,4 @@
-// Contoh Satu deklarasi
+// Contoh 1 : deklarasi
 let namaDepan;
 let namaBelakang;
 
@@ -12,6 +12,6 @@ let lastName = "Pratama";
 let namaLengkap = firstName + lastName;
 console.log(`Nama Saya : ${namaLengkap}`);
 
-// let
-// var
-// const
+// let : Local Scope
+// var : Global
+// const : Tida bisa dirubah lagi

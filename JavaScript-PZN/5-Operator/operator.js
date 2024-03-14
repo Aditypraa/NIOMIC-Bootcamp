@@ -28,10 +28,10 @@ console.log(coba);
 let unary = +1;
 console.log(unary);
 
-unary++;
+unary++; // Increment
 console.log(unary);
 
-unary--;
+unary--; // Decrement
 console.log(unary);
 
 unary = -unary;

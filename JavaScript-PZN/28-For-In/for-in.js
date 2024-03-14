@@ -6,7 +6,7 @@ let person = {
   lastName: "Pratama",
 };
 
-// In digunakan Untuk Mengakses property Bukan Value
+// In digunakan Untuk Mengakses property atau lebih tepatnya KEY nya Bukan Value
 for (let property in person) {
   console.log(`daftar nama property ${property} : ${person[property]}`);
 }

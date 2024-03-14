@@ -3,7 +3,7 @@ let person = {
   age: 30,
 };
 
-// In hanya Mengecek APakah Property DI dalam Object Ada Atau Tidak In tidak Akan Mengecek Valuenya
+// In : hanya Mengecek Apakah Property DI dalam Object Ada Atau Tidak In tidak Akan Mengecek Valuenya
 if ("name" in person) {
   console.log(`Hello ${person.name}`);
 } else {

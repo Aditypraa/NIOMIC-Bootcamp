@@ -16,3 +16,7 @@ let nama = person.firstname || person.lastname;
 console.log("Hello" && "");
 console.log("" && []);
 console.log("" && "NOL");
+
+// ! Not : Kebalikan
+console.log(!true);
+console.log(!false);

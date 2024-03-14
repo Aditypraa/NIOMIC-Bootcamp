@@ -10,6 +10,17 @@ if (nilaiUianSaya > 90) {
   console.log("Try Again Bang bang");
 }
 
+let umur = 19;
+if (umur < 10) {
+  console.log("Anak-Anak");
+} else if (umur < 30) {
+  console.log("Anak Muda");
+} else if (umur < 30) {
+  console.log("Orang Tua");
+} else {
+  console.log("Tidak Terdifinisi");
+}
+
 // Ternary Operator
 // Ternary Operator Bisanya Untuk Nilai yang Hasilnya Boolean
 let benar = false;
