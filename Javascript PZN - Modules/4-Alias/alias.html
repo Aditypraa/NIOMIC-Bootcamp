@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alias</title>
+  </head>
+
+  <body>
+    <script type="module">
+      import { age as umur, hello as menyapa, Car as Mobil } from "./alias.js";
+      import { age as umur1, hello as menyapa2 } from "./alias1.js";
+
+      // alias.js
+      console.info(umur);
+      console.info(menyapa("Aditya"));
+      let mobil = new Mobil("Avanza", 250);
+      console.info(mobil.start());
+
+      // alias1.js
+      console.info(umur1);
+      console.info(menyapa2("Budianto Jr"));
+    </script>
+  </body>
+</html>

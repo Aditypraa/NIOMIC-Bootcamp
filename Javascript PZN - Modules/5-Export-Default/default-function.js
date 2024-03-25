@@ -1,3 +1,3 @@
-export default function hello(nama) {
+export default function (nama) {
   return `Hallo nama saya : ${nama}`;
 }

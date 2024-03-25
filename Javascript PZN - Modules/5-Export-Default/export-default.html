@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Export Default</title>
+  </head>
+
+  <body>
+    <script type="module">
+      import functionDefault from "./default-function.js";
+      //   import { default as variabelDefault } from "./default-variabel.js";
+      import Person from "./default-class.js";
+
+      //Default Function
+      console.info(functionDefault("Budianto"));
+
+      //   Default Variabel
+      //   console.info(variabelDefault);
+
+      // Default Class
+      const person = new Person("Aditya");
+      person.sayHi();
+    </script>
+  </body>
+</html>
