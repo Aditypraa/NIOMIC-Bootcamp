@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Event Handler</title>
+  </head>
+  <body>
+    <input id="clickMe" type="button" value="Click Me!"></input>
+
+    <script>
+        const clickMe = document.getElementById("clickMe");
+
+        clickMe.onclick = () =>{
+            clickMe.setAttribute("value", "Click Me Done!");
+        }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Element</title>
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <p id="description"></p>
+
+    <div class="content" id="content"></div>
+    <script>
+      const title = document.getElementById("title");
+      title.textContent = "Belajar JAVASCRIPT DOM";
+
+      const description = document.getElementById("description");
+      description.textContent = "Belajar JAVASCRIPT DOM";
+
+      const content = document.getElementById("content");
+      const title1 = document.createElement("h1");
+      title1.textContent = "Belajar membuat element dengan javasCRIPT DOM";
+      content.appendChild(title1);
+
+      const description2 = document.createElement("h2");
+      description2.textContent =
+        "Belajar membuat element dengan javasCRIPT DOM 2";
+      content.appendChild(description2);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inner text dan text Content</title>
+  </head>
+  <body>
+    <p id="content">
+      <script>
+        console.info("Hello world!");
+      </script>
+    <b>Aditya</b>
+    <p>Pratama</p>
+    </p>
+
+    
+    <script>
+      const content = document.getElementById("content");
+      console.log(content.textContent);
+      console.log(content.innerText);
+      console.log(content.innerHTML);
+    </script>
+  </body>
+</html>
