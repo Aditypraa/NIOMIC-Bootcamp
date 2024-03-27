@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Set Timeout</title>
+  </head>
+
+  <body>
+    <h1>setTimeout (callback , timeInMilis)</h1>
+    <p>Digunakan untuk menjalankan Proses Async sekali dalam waktu tertentu</p>
+
+    <script>
+      // Pembuatan Method Async
+      // const addElement = () => {
+      //     const header = document.createElement("h1");
+      //     header.textContent = "Aditya Pratama";
+
+      //     document.body.appendChild(header);
+      // }
+
+      function addElement() {
+        let header = document.createElement("h1");
+        header.textContent = "Aditya Pratama";
+
+        document.body.appendChild(header);
+      }
+
+      // setTimeout adalah Proses Async kemudian callback function addElement dimasukan ke paramater Callback
+      // 1000 : adalah timeInMilis
+      setTimeout(addElement, 1000);
+      console.info("Program Selesai");
+    </script>
+  </body>
+</html>
