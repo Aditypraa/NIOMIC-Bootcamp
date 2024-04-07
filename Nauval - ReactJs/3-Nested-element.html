@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested Element</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script>
+      const root = document.getElementById("root");
+
+      //   const li = React.createElement("li", {
+      //     children: "Orange",
+      //   });
+      //   const li2 = React.createElement("li", {
+      //     children: "Apple",
+      //   });
+      //   const li3 = React.createElement("li", {
+      //     children: "Manggo",
+      //   });
+
+      const element = React.createElement(
+        "ul",
+        { className: "list" },
+        React.createElement("li", null, "Apple"),
+        React.createElement("li", null, "Orange"),
+        React.createElement("li", null, "Manggo"),
+        React.createElement("li", null, "Semangka")
+      );
+
+      ReactDOM.render(element, root);
+    </script>
+  </body>
+</html>
