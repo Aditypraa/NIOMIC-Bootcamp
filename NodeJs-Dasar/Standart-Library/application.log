@@ -1,8 +1,0 @@
-Hello World
-Error
-┌───────────┬───────────┐
-│  (index)  │  Values   │
-├───────────┼───────────┤
-│ firstName │ 'Aditya'  │
-│ lastName  │ 'Pratama' │
-└───────────┴───────────┘
