@@ -1,5 +1,7 @@
-import fs from "fs";
+import fs from "fs/promises";
 
-const read = fs.readFileSync("../6-path/path.mjs", "utf8");
+const buffer = await fs.readFile("file-system.mjs");
 
-console.log(read);
+console.info(buffer.toString()); // Promise { <pending> }
+
+await fs.writeFile("tes.txt", "Hello World");
